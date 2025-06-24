@@ -17,8 +17,6 @@ conn = psycopg2.connect(
 
 # parameters for exportcsvfile.py
 table_to_export = "public.comments_comment_rate"  # 包含schema的表名
-# public.adminusers_adminuser
-#public.listings_two_dish_rice
 output_folder="/Users/mac/Downloads/erbhomework/demo"
 
 
